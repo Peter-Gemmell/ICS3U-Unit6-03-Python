@@ -1,25 +1,36 @@
 #!/usr/bin/env python3
 
 # Created by Peter Gemmell
-# Created on March 2022
-# This program calculates the circumference of a circle using constants
+# Created on may 2022
+# This program program creates 10 random numbers & finds largest number
 
-import constants
+import random
+
+
+def find_largest(array=[]):
+    largest_number = 0
+    loop_counter = 0
+    while loop_counter < len(array):
+        if array[loop_counter] > largest_number:
+            largest_number = array[loop_counter]
+        loop_counter += 1
+    return largest_number
 
 
 def main():
-    # this function calculates the cost of pizza
-
-    # input
-    diameter = int(input("Enter the diameter of the pizza you would like (inch): "))
 
     # process
-    sub_total = constants.LABOR + constants.RENT + (diameter * constants.COST_PER_INCH)
-    total = sub_total + (sub_total * constants.HST)
+    list_numbers = []
+    for loop_counter in range(0, 10):
+        random_number = random.randint(1, 100)
+        list_numbers.append(random_number)
+        print("The random number is : {0}".format(random_number))
+
+    # call functions
+    largest_number = find_largest(list_numbers)
 
     # output
-    print("")
-    print("The cost of a {0} inch pizza is ${1:,.2f}".format(diameter, total))
+    print("\nThe largest number is {}.".format(largest_number))
     print("\nDone.")
 
 
