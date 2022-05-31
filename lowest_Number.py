@@ -2,7 +2,7 @@
 
 # Created by Peter Gemmell
 # Created on may 2022
-# This program program creates 10 random numbers & finds largest number
+# This program program creates 10 random numbers & finds lowest number
 
 import random
 
