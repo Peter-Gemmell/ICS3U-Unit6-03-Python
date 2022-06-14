@@ -20,70 +20,80 @@
                     <mxGeometry x="35" y="-1160" width="100" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="34" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="34" y="-500" width="100" height="60" as="geometry"/>
+                    <mxGeometry x="34" y="-457" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" value="" style="edgeStyle=none;html=1;" parent="1" source="37" target="46" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="35" value="" style="edgeStyle=none;html=1;" parent="1" target="46" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="84" y="-797" as="sourcePoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="36" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;rounded=0;" parent="1" source="37" target="50" edge="1">
+                <mxCell id="36" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;rounded=0;" parent="1" target="50" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="220" y="-895"/>
+                            <mxPoint x="220" y="-852"/>
                         </Array>
+                        <mxPoint x="144" y="-852" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="37" value="for loop_num in&amp;nbsp;&lt;br&gt;random_number" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="24" y="-950" width="120" height="110" as="geometry"/>
+                    <mxGeometry x="24" y="-907" width="120" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="41" target="37" edge="1">
+                <mxCell id="38" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="41" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="10" y="-600"/>
-                            <mxPoint x="10" y="-895"/>
+                            <mxPoint x="10" y="-557"/>
+                            <mxPoint x="10" y="-852"/>
                         </Array>
+                        <mxPoint x="24" y="-852" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="39" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="84" y="-840" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="84" y="-797" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="40" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="110" y="-940" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="110" y="-897" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="41" value="lowest_number =&lt;br&gt;loop_num" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-                    <mxGeometry x="24" y="-630" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="24" y="-587" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" value="" style="edgeStyle=none;html=1;" parent="1" source="43" target="37" edge="1">
+                <mxCell id="52" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="43" target="51">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="43" value="Get random_number" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-                    <mxGeometry x="17" y="-1050" width="136" height="60" as="geometry"/>
+                    <mxGeometry x="16" y="-1070" width="136" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="44" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="46" target="41" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="45" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" parent="1" source="46" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="220" y="-745" as="targetPoint"/>
+                        <mxPoint x="220" y="-702" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="46" value="if loop_num &amp;lt;&amp;nbsp;&lt;br&gt;lowest_number" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="24" y="-800" width="120" height="110" as="geometry"/>
+                    <mxGeometry x="24" y="-757" width="120" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="47" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="100" y="-800" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="100" y="-757" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="48" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="93" y="-710" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="93" y="-667" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="49" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;" parent="1" source="50" target="34" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="84" y="-530"/>
+                            <mxPoint x="84" y="-487"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="50" value="return&lt;br&gt;lowest_number" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-                    <mxGeometry x="160" y="-560" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="160" y="-517" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="51" target="37">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="lowest_number = random_number [0]" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="16" y="-990" width="136" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
